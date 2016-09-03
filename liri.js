@@ -43,7 +43,7 @@ function myTweets(){
 
 	var client = new Twitter(twitterKeys);
 
-	var params = {screen_name: 'mholsapple80', count: 20};
+	var params = {screen_name: 'KtRegi', count: 20};
 	client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	  if (!error) {
 
